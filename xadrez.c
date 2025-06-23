@@ -10,12 +10,40 @@ int main() {
 
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+    int t = 1;
+    do
+    {
+        printf("Torre pra Cima e Esqurda\n");
+        t++;
+
+    } while (t <= 5);
+
+
+
+
 
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
+    for (int t = 1; t <= 5; t++)
+    {
+        printf("Torre pra Direita\n");
+    }
+
+
+
+
 
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+    int r = 1;
+    while (r <= 8)
+    {
+        printf("Rainha pra Esquerda\n");
+        r++;
+    }
+
+
+
 
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
