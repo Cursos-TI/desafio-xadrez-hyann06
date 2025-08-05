@@ -23,12 +23,12 @@ void rainha (int mov)
 //Função recursiva do Bispo (movimento pra cima + esquerda)
 void bispo (int movHorizontal,int movVertical)
 {
-    for(int i = 0; i < movVertical; i++)
+    for(int i = 0; i < movHorizontal; i++)
     {
-        for(int j = 0; j < movHorizontal; j++)
+        for(int j = 0; j < movVertical; j++)
         {
-            printf("Bispo para Cima\n");
             printf("Bispo para Esquerda\n");
+            printf("Bispo para Cima\n");
         }
     }    
 }
