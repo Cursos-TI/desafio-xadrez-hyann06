@@ -36,11 +36,12 @@ void cavalo ()
     for(int i = 0; i < 2; i++)
     {
         printf("Cavalo para Cima\n");
-        if(i == 2) break;
-
         if (i == 1)
         {
-            printf("Cavalo para Direita\n");
+            for (int j = 0; j < 1; j++)
+            {
+                printf("Cavalo para Direita\n");
+            }
         }
     }
 
@@ -53,8 +54,7 @@ int main() {
     int movTorre = 5;
     int movBispo = 5;
     int movRainha = 8;
-    int movCavalo = 1;
-
+    
     // Torre
     printf("Movimento da Torre\n");
     torre(movTorre);
@@ -78,7 +78,7 @@ int main() {
 
     //Cavalo
     printf("Movimento da Cavalo\n");
-    cavalo(movCavalo);
+    cavalo();
 
     return 0;
 }
