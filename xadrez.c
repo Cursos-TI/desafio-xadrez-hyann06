@@ -21,16 +21,12 @@ void rainha (int mov)
 }
 
 //Função recursiva do Bispo (movimento pra cima + esquerda)
-void bispo (int movHorizontal,int movVertical)
+void bispo (int movBispo)
 {
-    for(int i = 0; i < movHorizontal; i++)
+    if (movBispo > 0)
     {
-        for(int j = 0; j < movVertical; j++)
-        {
-            printf("Bispo para Esquerda\n");
-            printf("Bispo para Cima\n");
-        }
-    }    
+        printf("Bispo pra Cima,Direita\n");
+    }  
 }
 
 //Função recursiva do Cavalo (mivimento pra cima + direita)
@@ -49,8 +45,7 @@ int main() {
    
     //Valores do Movimento
     int movTorre = 5;
-    int movBispoVertiical = 2;
-    int movBispoHorizontal = 2;
+    int movBispo = 2;
     int movRainha = 8;
     int movCavalo = 1;
 
@@ -70,7 +65,7 @@ int main() {
 
     //Bispo
     printf("Movimento da Bispo\n");
-    bispo(movBispoHorizontal, movBispoVertiical);
+    bispo(movBispo);
 
     printf("\n");
     printf("\n");
