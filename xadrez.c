@@ -34,12 +34,14 @@ void bispo (int movHorizontal,int movVertical)
 }
 
 //Função recursiva do Cavalo (mivimento pra cima + direita)
-void cavalo (int mov)
+void cavalo (int movCavalo)
 {
-    for(int i = 1, j = 1; i <= 2 && j = 1; i++)
+    for(int i = 1; i <= 2; i++)
     {
-        printf("Cavalo pra cima");
+        printf("Cavalo para Cima\n");
     }
+
+    printf("Cavalo para Direita\n");
 }
 
 
